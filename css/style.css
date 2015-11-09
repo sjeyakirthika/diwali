@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  /*background: #CC00FF; */
+  font-family: 'Lobster', cursive;
+}
+.circle {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background: #6A00D4;
+  margin-top: 150px;
+}
+
+h1 {
+  color: #D5E2D6;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -350px;
+  -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  /*-----------------------*/
+  text-shadow: 1px 1px #8F00B3, 2px 2px #8F00B3, 3px 3px #8F00B3, 4px 4px #8F00B3, 5px 5px #8F00B3, 6px 6px #8F00B3, 7px 7px #8F00B3, 8px 8px #8F00B3, 9px 9px #8F00B3, 10px 10px #8F00B3, 11px 11px #8F00B3, 12px 12px #8F00B3, 13px 13px #8F00B3, 14px 14px #8F00B3, 15px 15px #8F00B3, 16px 16px #8F00B3, 17px 17px #8F00B3, 18px 18px #8F00B3, 19px 19px #8F00B3, 20px 20px #8F00B3, 21px 21px #8F00B3, 22px 22px #8F00B3, 23px 23px #8F00B3, 24px 24px #8F00B3, 25px 25px #8F00B3, 26px 26px 6px #06520C;
+  
+}
+
+span:nth-child(3), span:nth-child(7) { 
+font-size: 60px;
+}
+
+span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
+  font-size: 110px;
+}
+
+body {
+	background: #000;
+	margin:0;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+	cursor: crosshair;
+	display: block;
+	background: url("http://www.hdwallpapers.in/walls/marina_bay_sands_singapore-wide.jpg");
+  background-size: 100% 100%;
+}
